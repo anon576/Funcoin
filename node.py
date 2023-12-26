@@ -1,5 +1,4 @@
 import asyncio
-
 from funcoin.blockchain import Blockchain
 from funcoin.connections import ConnectionPool
 from funcoin.peers import P2PProtocol
@@ -9,6 +8,8 @@ blockchain = Blockchain()
 connectionPool = ConnectionPool()
 
 server = Server(blockchain,connectionPool,P2PProtocol)
+
+
 
 
 
